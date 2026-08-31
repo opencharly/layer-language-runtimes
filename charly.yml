@@ -1,7 +1,7 @@
 version: 2026.232.0520
 language-runtimes:
     candy:
-        version: 2026.144.1443
+        version: 2026.243.0100
         description: |
             System language runtimes (.NET 9 SDK, PHP CLI, system Python 3) installed on PATH and version-reachable.
             language-runtimes installs the .NET 9 SDK (distro package on
@@ -12,8 +12,8 @@ language-runtimes:
             (Go and Node.js are installed too but their acceptance is owned by the
             golang/nodejs candies — not duplicated here, per R3.)
         require:
-            - '@github.com/opencharly/layer-nodejs:v2026.235.2056'
-            - '@github.com/opencharly/layer-rust:v2026.237.458'
+            - '@github.com/opencharly/layer-nodejs:v2026.239.1624'
+            - '@github.com/opencharly/layer-rust:v2026.239.1627'
         distro:
             arch:
                 package:
