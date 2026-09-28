@@ -1,4 +1,4 @@
-version: 2026.232.0520
+version: 2026.261.1747
 language-runtimes:
     candy:
         version: 2026.243.0100
@@ -226,7 +226,7 @@ language-runtimes-skill:
             Consequence for `/charly-coder:fedora-coder` (the biggest consumer): the whole
             `python` / `pixi` charly-layer chain stays out of the resolved candy set (because
             `/charly-coder:uv` and `/charly-infrastructure:supervisord` likewise carry no python
-            dep). See the project rulebook "Key Rules" (`AGENTS.md` / `CLAUDE.md`) → *"Don't declare defensive deps"* for the
+            dep). See the project rulebook "Key Rules" (`AGENTS.md`) → *"Don't declare defensive deps"* for the
             general rule.
             
             If you genuinely need the pixi-python env (e.g. a candy that
