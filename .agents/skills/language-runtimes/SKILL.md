@@ -106,7 +106,7 @@ Python env). It installs `python3-devel` + `python3-ramalama` via RPM —
 **system Python** — which is all its content references. Consumers of
 `language-runtimes` get only the RPM Python stack.
 
-Consequence for the coder boxes that compose it (the biggest consumers): the whole
+Consequence for the coder boxes that composed it (the biggest consumers): the whole
 `python` / `pixi` charly-layer chain stays out of the resolved candy set (because
 `/charly-coder:uv` and `/charly-infrastructure:supervisord` likewise carry no python
 dep). See the project rulebook "Key Rules" (`AGENTS.md`) → *"Don't declare defensive deps"* for the
@@ -144,7 +144,7 @@ my-polyglot:
 ## Used In Boxes
 
 - `/charly-coder:arch-coder` — pacman-based sibling.
-- the deb-based siblings — consumers of the dotnet-install.sh plan step.
+- the now-retired deb-based siblings — they consumed the dotnet-install.sh plan step.
 
 ## Related Candies
 
